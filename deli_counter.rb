@@ -10,7 +10,8 @@ def take_a_number(array, name)
   return "Welcome, #{name}. You are number #{array.size} in line."
 end
 
-#def now_serving()
-#end
+def now_serving(array)
+  array.shift
+end
 
 puts take_a_number(katz_deli, "Nathan")
