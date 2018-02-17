@@ -4,6 +4,7 @@ def line(array)
   array.collect!.with_index do |name, index|
     "#{index+1}. #{name}"
   end
+  puts array
   return "The line is currently: " + array.to_s
 end
 
