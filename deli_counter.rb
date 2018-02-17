@@ -1,9 +1,9 @@
 katz_deli = []
 
 def line(array)
-  puts "The line is currently:"
   array.each_with_index do |name|
-
+  end
+  return "The line is currently:"
 end
 
 def take_a_number(array, name)
