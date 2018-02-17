@@ -2,7 +2,7 @@ katz_deli = ["Kayla", "Melanie"]
 
 def line(array)
   array.collect!.with_index do |name, index|
-    "#{index+1}. #{name}"
+    "#{index+1}. #{name} "
   end
   print array
   return "The line is currently: "
