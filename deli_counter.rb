@@ -13,5 +13,4 @@ end
 #def now_serving()
 #end
 
-print line(katz_deli)
 puts take_a_number(katz_deli, "Nathan")
