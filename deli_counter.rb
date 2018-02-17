@@ -15,4 +15,4 @@ end
 #def now_serving()
 #end
 
-line(katz_deli)
+print line(katz_deli)
