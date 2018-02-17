@@ -21,5 +21,5 @@ end
 
 puts line(katz_deli)
 puts take_a_number(katz_deli, "Nathan")
-puts now_serving(katz_deli)
+now_serving(katz_deli)
 puts line(katz_deli)
