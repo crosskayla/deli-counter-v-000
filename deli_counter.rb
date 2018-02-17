@@ -14,4 +14,4 @@ end
 #end
 
 print line(katz_deli)
-take_a_number("Nathan")
+puts take_a_number("Nathan")
