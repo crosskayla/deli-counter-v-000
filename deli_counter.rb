@@ -1,4 +1,4 @@
-katz_deli = []
+katz_deli = ["Kayla," "Melanie"]
 
 def line(array)
   array.collect!.with_index do |name, index|
@@ -14,3 +14,4 @@ end
 
 #def now_serving()
 #end
+
