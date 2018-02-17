@@ -1,4 +1,4 @@
-katz_deli = ["Kayla", "Melanie"]
+katz_deli = []
 
 def line(array)
   line_array = array.collect.with_index {|name, index| "#{index+1}. #{name}"}
@@ -18,8 +18,3 @@ def now_serving(array)
     array.shift
   end
 end
-
-puts line(katz_deli)
-puts take_a_number(katz_deli, "Nathan")
-now_serving(katz_deli)
-puts line(katz_deli)
