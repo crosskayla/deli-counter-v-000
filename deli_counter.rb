@@ -5,7 +5,7 @@ def line(array)
     "#{index+1}. #{name}"
   end
   puts array
-  return "The line is currently: " + array.to_s
+  return "The line is currently: ""
 end
 
 def take_a_number(array, name)
