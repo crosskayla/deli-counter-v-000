@@ -14,3 +14,4 @@ end
 #end
 
 print line(katz_deli)
+take_a_number("Nathan")
