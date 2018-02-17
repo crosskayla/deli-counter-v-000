@@ -1,8 +1,8 @@
 katz_deli = []
 
 def line(array)
-  array.each_with_index do |name, index|
-    
+  array.collect.with_index do |name, index|
+    "#{index+1}. #{name}"
   end
   return "The line is currently: "
 end
