@@ -4,8 +4,8 @@ def line(array)
   array.collect!.with_index do |name, index|
     "#{index+1}. #{name}"
   end
-  puts array
-  return "The line is currently: ""
+  print array
+  return "The line is currently: "
 end
 
 def take_a_number(array, name)
