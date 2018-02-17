@@ -19,4 +19,5 @@ def now_serving(array)
   end
 end
 
+line(katz_deli)
 puts take_a_number(katz_deli, "Nathan")
